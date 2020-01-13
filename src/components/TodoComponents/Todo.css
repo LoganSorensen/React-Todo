@@ -1,7 +1,70 @@
+.todo-card {
+    border-radius: 20px;
+    background-color: slateblue;
+    /* color: white; */
+    text-align: center;
+    margin: 5% auto;
+    width: 50%;
+    padding-bottom: 2%;
+    overflow: auto;
+}
+
 .todo {
     cursor: pointer;
+    background-color: white;
+    width: 90%;
+    margin: 0.5% auto;
+    padding: .5%;
+    border-radius: 8px;
+    
 }
 
 .todo.completed {
     text-decoration: line-through;
+    /* color: gray; */
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: black;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #988fcf;
+    color: white;
+}
+
+button:active {
+    background-color: #8a7fd3;
+}
+
+.completed-btn {
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.add-btn {
+    border-radius: 0px 20px 20px 0px;
+    border-left: 1px solid black;
+}
+
+input {
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    padding: 1% 2%;;
+    outline: none;
+    margin-bottom: 1%;
 }
